@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<br>
+    <ul>*-любые элементы</ul>
+    <ul>div-элементы с таким тегом</ul>
+    <ul>#id-элементы с данным id</ul>
+    <ul>.class-по классу</ul>
+    <ul>.class1.class2-одновременно с двумя классами</ul>
+    <ul>p strong-вложенные</ul>
+    <ul>ul>li-только первого уровня вложенности</ul>
+    <ul>h1-по тегу</ul>
+    <ul>div+p — соседние,первый абзац следующий за div</ul>
+    <ul>div~p — родственные,все абзацы следующие за div</ul>
+    <ul>[attr]-устанавливает стиль для элемента, если задано опрелеленное значение специфичного атрибута</ul>
+    <ul>[attr="value"]–атрибут равен “value”</ul>
+    <ul>[attr^="http"]– атрибут начинается с текста</ul>
+    <ul>[attr$=".com"]– атрибут заканчивается на текст</ul>
+    <ul>[attr|="value"]– атрибут равен “value” или начинается с “value-” (например равен “value-1”)</ul>
+    <ul>[attr*="value"]– атрибут содержит подстроку “value” (например равен “myvalue”)</ul>
+    <ul>[attr~="bar"]– атрибут содержит “bar” как одно из значений через пробел, например: data-attr='foo bar'</ul>
+
+<div class="one">
+    <h1>Hello World!</h1>
+    <h1 class="red">Hello students!</h1>
+    <span id="hello">Hello mates!</span>
+    <h1 id="id">Hello sweeties!</h1>
+    <span class="yellow">Hello friend!</span>
+    <h1 class="black">Hello Ukraine!</h1>
+    <span class="green">Hello users!</span>
+    <h1 id="yes">Hello Tommy!</h1>
+    <h2>Hello guys!</h2>
+    <h2 class="pink">Bye-Bye!</h2>
+    <span class="class1"><em>Super!</em></span>
+</div>
+</body>
+</html>

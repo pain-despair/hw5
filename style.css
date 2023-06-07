@@ -1,0 +1,58 @@
+h1{
+    color:chartreuse; 
+    font-size: 2.5em;   
+}
+
+.red{
+    color:aqua;
+    font-size: 3em;
+}
+
+#hello{
+    color:blueviolet;
+    font-size: 3.5em;
+}
+
+#id{
+    color:darkmagenta;
+    font-size: 4em;
+}
+
+#id + span.yellow{
+    color:blue;
+    font-size: 4.5em;
+}
+
+.one > .black{
+    color:crimson;
+    font-size: 4em;
+}
+
+.one > .black + .green{
+    color:green;
+    font-size: 3.5em;
+}
+
+.one > #yes{
+    color:black;
+    font-size: 3em;
+} 
+
+h2{
+    color:darkmagenta;
+    font-size: 2.5em;
+}
+
+.one > h2 + .pink:hover{
+    color:salmon;
+    font-size: 5em 
+}
+
+.class1{
+    color:rgb(42, 165, 89)
+}
+
+
+
+
+
